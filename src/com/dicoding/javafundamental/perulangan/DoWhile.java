@@ -1,13 +1,11 @@
 package com.dicoding.javafundamental.perulangan;
 
-public class While {
+public class DoWhile {
     public static void main(String[] args) {
         int value = 1;
-
-        while (value <= 10){
-            System.out.print("Angka : " + value);
+        do {
+            System.out.println("Angka : " + value);
             value++;
-            System.out.print("\n");
-        }
+        } while (value <= 10);
     }
 }
